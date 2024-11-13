@@ -1,0 +1,171 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.header-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Box-1 {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 160px;
+    padding-right: 60px;
+}
+
+.img-1 {
+    padding-right: 100px;
+}
+
+.img-1 img {
+    object-fit: cover;
+}
+
+.Box-1-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #f9faf8;
+}
+
+.Box-1-paragraph {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.Button-1 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color:white;
+   
+    
+}
+
+.Heading-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.Box-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 5rem;
+
+}
+
+.imgs {
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.Box-3 {
+    background-color: #e5e7eb;
+}
+
+.Box-3-P1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 34px;
+    font-style: italic;
+    padding-top: 100px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.Box-3-p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: right;
+    margin-right: 380px;
+    padding-bottom: 100px;
+}
+
+.Box-4 {
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Box-4-1 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.Box-4-p-1 {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.Box-4-p-2 {
+    color: white;
+}
+
+.Button-2 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color:white;
+    border-color: white;
+    border-style: solid;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
